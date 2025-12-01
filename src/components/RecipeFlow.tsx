@@ -1,7 +1,7 @@
 import React from "react";
-import recipeUploadImg from "../assets/recipe-upload.png";
+import recipeCreateImg from "../assets/recipe-create.png";
 import syncBrandsImg from "../assets/sync-brands.png";
-import purchaseCartImg from "../assets/purchase-cart.png";
+import orderFromRecipeImg from "../assets/order-from-recipe.png";
 
 const RecipeFlow: React.FC = () => {
   return (
@@ -16,15 +16,12 @@ const RecipeFlow: React.FC = () => {
           <div className="recipe-step">
             <div className="pill pill-recipe">Recipe</div>
             <div className="recipe-card">
-
-              {/* ← IMAGE GOES HERE */}
               <div className="recipe-card-image">
                 <img
-                  src={recipeUploadImg}
-                  alt="Creator uploads recipe to Covered"
+                  src={recipeCreateImg}
+                  alt="Creator uploads recipe"
                 />
               </div>
-
               <h3>Creator uploads recipe</h3>
               <p>
                 Add your recipe, images, and instructions to Covered. It becomes
@@ -37,15 +34,12 @@ const RecipeFlow: React.FC = () => {
           <div className="recipe-step">
             <div className="pill pill-sync">Sync</div>
             <div className="recipe-card">
-
-              {/* ← IMAGE GOES HERE */}
               <div className="recipe-card-image">
                 <img
                   src={syncBrandsImg}
-                  alt="Sync ingredients to brands and products"
+                  alt="Sync ingredients to brands"
                 />
               </div>
-
               <h3>Sync ingredients to brands</h3>
               <p>
                 Link ingredients to specific products and partner brands so
@@ -58,15 +52,12 @@ const RecipeFlow: React.FC = () => {
           <div className="recipe-step">
             <div className="pill pill-purchase">Purchase</div>
             <div className="recipe-card">
-
-              {/* ← IMAGE GOES HERE */}
               <div className="recipe-card-image">
                 <img
-                  src={purchaseCartImg}
-                  alt="Users purchase items via supermarket carts"
+                  src={orderFromRecipeImg}
+                  alt="Users purchase items"
                 />
               </div>
-
               <h3>Users purchase items</h3>
               <p>
                 Covered connects directly to supermarket carts, so your audience
