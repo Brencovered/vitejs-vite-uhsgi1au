@@ -5,13 +5,14 @@ import orderFromRecipeImg from "../assets/order-from-recipe.png";
 
 const RecipeFlow: React.FC = () => {
   return (
-    <section className="section section-gradient">
+    <section className="section">
       <div className="section-inner">
-        <h2 className="section-title">Recipe Creation &amp; Brand Partnerships</h2>
-        <p className="section-kicker">How do they work?</p>
+        <div className="orange-tile">
+          <h2 className="section-title">Recipe Creation &amp; Brand Partnerships</h2>
+          <p className="section-kicker">How do they work?</p>
+        </div>
 
         <div className="recipe-flow">
-
           {/* RECIPE STEP */}
           <div className="recipe-step">
             <div className="pill pill-recipe">Recipe</div>
@@ -65,7 +66,6 @@ const RecipeFlow: React.FC = () => {
               </p>
             </div>
           </div>
-
         </div>
       </div>
     </section>
