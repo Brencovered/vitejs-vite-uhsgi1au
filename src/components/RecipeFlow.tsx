@@ -1,4 +1,5 @@
-import React from "react";
+
+import { FC } from "react";
 import recipeCreateImg from "../assets/recipe-create.png";
 import syncBrandsImg from "../assets/sync-brands.png";
 import orderFromRecipeImg from "../assets/order-from-recipe.png";

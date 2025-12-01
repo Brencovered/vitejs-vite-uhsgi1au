@@ -125,12 +125,7 @@ const CommunityEarnings: React.FC = () => {
               </span>
               <span>${campaignIncome.toLocaleString()}</span>
             </div>
-            <div className="calculator-total">
-              <span>Total estimated monthly earnings</span>
-              <span className="calculator-total-amount">
-                ${total.toLocaleString()}
-              </span>
-            </div>
+            
           </div>
         </div>
       </div>
