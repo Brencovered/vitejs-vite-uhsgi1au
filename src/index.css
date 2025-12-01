@@ -539,6 +539,7 @@ body {
   margin: 0;
   font-size: 13px;
   line-height: 1.6;
+  margin-top: auto;        /* optional: push text to bottom for alignment */
 }
 
 /* ────────────────────────────────
