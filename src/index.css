@@ -527,7 +527,9 @@ body {
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.45);
   backdrop-filter: blur(6px);
-  min-height: 150px;
+  min-height: 260px;       /* NEW: tweak this value to taste */
+  display: flex;           /* NEW */
+  flex-direction: column;  /* NEW */
 }
 
 .recipe-card h3 {
