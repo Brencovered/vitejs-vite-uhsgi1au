@@ -10,6 +10,3 @@ createRoot(getElementById("root") as HTMLElement).render(
   </StrictMode>
 );
 
-function getElementById(arg0: string): HTMLElement {
-  throw new Error("Function not implemented.");
-}
