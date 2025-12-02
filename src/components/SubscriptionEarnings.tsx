@@ -73,7 +73,7 @@ const CommunityEarnings: React.FC = () => {
                   min={1}
                   max={1}
                   step={0.1}
-                  onChange={(e) =>
+                  onChange={() =>
                     setSubscriberRate(parseNumber(e.target.value))
                   }
                 />
