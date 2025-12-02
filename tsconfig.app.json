@@ -8,6 +8,7 @@
     "jsx": "react-jsx",
     "moduleResolution": "Node",
     "strict": true,
+    "lib": ["ES2020", "DOM"],
     "types": ["react", "react-dom"]
   },
   "include": ["src"]

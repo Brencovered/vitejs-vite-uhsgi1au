@@ -1,12 +1,12 @@
-import React from "react";
-import HeroSection from "./components/HeroSection";
+import { FC } from "react";import HeroSection from "./components/HeroSection";
 import SubscriptionEarnings from "./components/SubscriptionEarnings";
 import BrandPartnerships from "./components/BrandPartnerships";
 import RecipeFlow from "./components/RecipeFlow";
 import CommunityEarnings from "./components/CommunityEarnings";
 import ContactSection from "./components/ContactSection";
+import * as React from "react";
 
-const App: React.FC = () => {
+const App: FC.FC = () => {
   return (
     <div className="page">
       <header className="top-bar">

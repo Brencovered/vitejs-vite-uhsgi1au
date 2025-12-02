@@ -1,6 +1,6 @@
-import React from "react";
+import * as React from "react";
 
-const BrandPartnerships: React.FC = () => {
+const BrandPartnerships: FC.FC = () => {
   return (
     <section className="section">
       <div className="section-inner two-column">
