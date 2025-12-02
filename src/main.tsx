@@ -4,8 +4,12 @@ import App from "./App";
 import "./index.css";
 import * as React from "react";
 
-createRoot(ES2020.getElementById("root") as HTMLElement).render(
+createRoot(getElementById("root") as HTMLElement).render(
   <StrictMode>
     <App />
   </StrictMode>
 );
+
+function getElementById(arg0: string): HTMLElement {
+  throw new Error("Function not implemented.");
+}
