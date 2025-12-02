@@ -64,7 +64,7 @@ const CommunityEarnings: React.FC = () => {
               <label className="calculator-label">
                 Earnings per subscriber (monthly)
               </label>
-              <div className="calculator-input-prefix">
+              <div className="">
                 <span>$</span>
                 <input
                   type="number"
