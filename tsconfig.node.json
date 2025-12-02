@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "react",
     "target": "ES2020",      // or "ES2021", "ES2022", or "ESNext"
     "lib": ["ES2020"],       // optional but sensible to align
     "module": "ESNext",
