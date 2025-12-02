@@ -4,10 +4,8 @@ import BrandPartnerships from "./components/BrandPartnerships";
 import RecipeFlow from "./components/RecipeFlow";
 import CommunityEarnings from "./components/CommunityEarnings";
 import ContactSection from "./components/ContactSection";
-import * as React from "react";
 
-const App: FC.FC = () => {
-  return (
+const App: FC = () => {  return (
     <div className="page">
       <header className="top-bar">
   <div className="top-bar-inner">

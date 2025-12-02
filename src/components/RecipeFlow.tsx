@@ -3,8 +3,9 @@ import { FC } from "react";
 import recipeCreateImg from "../assets/recipe-create.png";
 import syncBrandsImg from "../assets/sync-brands.png";
 import orderFromRecipeImg from "../assets/order-from-recipe.png";
+import * as React from "react";
 
-const RecipeFlow: React.FC = () => {
+const RecipeFlow: FC = () => {
   return (
     <section className="section">
       <div className="section-inner">
