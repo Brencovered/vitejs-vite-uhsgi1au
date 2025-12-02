@@ -32,8 +32,8 @@ const App: React.FC = () => {
       <main>
         <HeroSection />
         <SubscriptionEarnings />
-        <BrandPartnerships />
         <RecipeFlow />
+        <BrandPartnerships />
         <CommunityEarnings />
         <ContactSection />
       </main>
