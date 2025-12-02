@@ -1,5 +1,5 @@
-import React from "react";
-
+import * as React from "react";
+import { FC } from "react";
 const ContactSection: React.FC = () => {
   return (
     <section className="section section-gradient contact">
