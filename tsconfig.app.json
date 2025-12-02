@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "jsx": "react",
-
+    "jsxImportSource": "react",
     "target": "ES2020",
     "module": "ESNext",
     "jsx": "react-jsx",
     "moduleResolution": "Node",
     "strict": true,
-    "lib": [  "DOM"],
+    "lib": ["ES2020", "DOM"],
     "types": ["react", "react-dom"]
   },
   "include": ["src"]
