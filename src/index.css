@@ -201,16 +201,19 @@ body {
   width: 260px;
   height: 420px;
   border-radius: 40px;
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.35)),
-    url("https://images.pexels.com/photos/6937447/pexels-photo-6937447.jpeg?auto=compress&cs=tinysrgb&w=800")
-      center/cover no-repeat;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.35));
   box-shadow: var(--shadow-soft);
   position: relative;
-  transform: translateY(0);
-  transition: transform var(--transition-fast),
-    box-shadow var(--transition-fast);
+  overflow: hidden; /* important so image is clipped to this box */
 }
+
+.hero-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 
 .hero-phone::after {
   content: "";
