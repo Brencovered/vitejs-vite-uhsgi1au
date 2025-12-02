@@ -1,13 +1,11 @@
-import React from "react";
+import { FC } from "react";
+import creatorImg from "../assets/creator.png";
 
-const HeroSection: React.FC = () => {
+const HeroSection: FC = () => {
   return (
     <section className="section hero">
       <div className="hero-inner">
-        <div className="hero-image">
-          <div className="hero-phone" />
-        </div>
-
+        {/* Left: hero content */}
         <div className="hero-content">
           <p className="eyebrow">Join the Creator Movement</p>
           <h1 className="hero-title">
@@ -30,6 +28,13 @@ const HeroSection: React.FC = () => {
           >
             Apply to Join
           </a>
+        </div>
+
+        {/* Right: hero image */}
+        <div className="hero-image">
+          <div className="hero-phone">
+            <img src={creatorImg} alt="Creator using Covered" />
+          </div>
         </div>
       </div>
     </section>
