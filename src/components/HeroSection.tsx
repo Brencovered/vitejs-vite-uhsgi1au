@@ -33,7 +33,11 @@ const HeroSection: FC = () => {
         {/* Right: hero image */}
         <div className="hero-image">
           <div className="hero-phone">
-            <img src={creatorImg} alt="Creator using Covered" />
+            <img
+              className="hero-photo"
+              src={creatorImg}
+              alt="Creator using Covered"
+            />
           </div>
         </div>
       </div>
