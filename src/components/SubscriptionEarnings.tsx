@@ -70,7 +70,8 @@ const CommunityEarnings: React.FC = () => {
                   type="number"
                   className="calculator-input"
                   value={subscriberRate}
-                  min={0}
+                  min={1}
+                  max={1}
                   step={0.1}
                   onChange={(e) =>
                     setSubscriberRate(parseNumber(e.target.value))
