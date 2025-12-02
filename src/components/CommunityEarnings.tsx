@@ -29,25 +29,9 @@ const CommunityEarnings: React.FC = () => {
           </p>
         </div>
 
-        <div className="card earnings-card">
-          <h4 className="card-title">Example monthly earnings</h4>
-          <ul className="list">
-            <li>
-              <strong>2,500 subscribers</strong> × $1 ={" "}
-              <strong>$2,500</strong>
-            </li>
-            <li>
-              <strong>3 brand campaigns</strong> × $500 ={" "}
-              <strong>$1,500</strong>
-            </li>
-          </ul>
-          <p className="highlight-text">
-            Total monthly earnings:
-            <br />
-            <span>$4,000</span>
-          </p>
+        
         </div>
-      </div>
+      
     </section>
   );
 };
