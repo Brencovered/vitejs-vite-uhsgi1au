@@ -1,5 +1,5 @@
 import { FC } from "react";
-import creatorImg from "../assets/creator.png";
+import CreatorImg from "../assets/Creator.png";
 
 const HeroSection: FC = () => {
   return (
